@@ -1,0 +1,27 @@
+Haskell é uma linguagem funcional, ou seja, tudo se dar através de definição e execução de funções.
+Haskell economiza memória, pois ele faz absolutamente o precisa ser feito.
+Haskell é estaticamente tipado, mas não é obrigatório dizer qual o tipo de uma variável ou parâmetro, pois o Haskell usa inferência de tipo, o qual identifica qual o tipo de dado da variável, no entanto, uma variável inicialmente declarada como inteiro não pode receber um string, o compilador emitirá um erro de tipagem. 
+A inferência de tipo também ajuda ao código ser mais genérico.
+Programas escritos em Haskell são mais curtos que programas feitos em linguagens interativas, por isso são mais fáceis de manter e possui menos bugs.
+
+Python é uma linguagem interpretada de múltiplos paradigmas, pois dar suporte a linguagem estruturada,  funcional,  orientada a objetos e procedural.
+Possui tipagem dinâmica e forte, uma variável pode receber mais de um tipo de dados em momentos distintos, não é necessário declarar qual o tipo da variável, pois o interpretador o reconhece. Prioriza a legibilidade do código sobre a velocidade ou expressividade, por isso seu código é mais curto em comparação a outras linguagens para um mesmo algoritmo.
+
+Java é uma linguagem orientada a objetos, possui tipagem forte, é uma linguagem interpretada. Possui uma máquina virtual, JVM, que que converte os códigos java em bytecodes que podem ser executados em qualquer hardware e software que possuam uma JVM instalada.
+
+- Em Haskell e Python não se precisa declarar qual o tipo de variável, ao contrário do Java, onde é necessário declarar explicitamente qual o tipo da variável.
+- Haskell usa apenas a quantidade de memória necessária, e somente quando é explicitamente solicitado, ao contrário do Python e Java, que usam bastante memória em comparação com o primeiro.
+- Python também pode ser utilizada em programas funcionais, assim como Haskell.
+- Ao contrário de Haskell, Java e Python podem criar programas em diversos paradigmas.
+- Python e Java são linguagens imperativas, enquanto Haskell é uma linguagem declarativa.
+ 
+Referências:
+
+Disponível em: <https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_procedural> Acesso em 20.03.2019
+Disponível em: <https://pt.wikipedia.org/wiki/Python> Acesso em 20.03.2019
+Disponível em: <https://pt.wikipedia.org/wiki/Tipo_de_dado> Acesso em 20.03.2019
+Disponível em: <https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_imperativa> Acesso em 20.03.2019
+Disponível em: <https://henriquebastos.net/pt_br/diferencas-entre-linguagem-compilada-e-linguagem-interpretada/> Acesso em 20.03.2019
+Disponível em: <https://pt.wikipedia.org/wiki/M%C3%A1quina_virtual_Java> Acesso em 20.03.2019
+Disponível em: <http://haskell.tailorfontela.com.br/introduction> Acesso em 20.03.2019
+Disponível em: <https://docs.google.com/presentation/d/15EGzNzp-_c3ZumBBtmjzeBIRibBT5yK7XRUqvrn5OO4/edit#slide=id.gc58de3fc_088 Acesso em 20.03.2019

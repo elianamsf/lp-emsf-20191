@@ -1,0 +1,3 @@
+2. Normalmente prefiro criar programas orientados a objetos, pois é mais fácil a manutenção, no entanto, dentro das definições das funções utilizo muito código estruturado. Vale ressaltar que mesmo que usemos programação orientada a objetos, quando utilizamos os objetos, suas funções e atributos, ou seja na aplicação destes, criamos um código que possui um modo sequencial e estrutural.
+
+3. Mesmo que as linguagens estejam cada vez mais performáticas e possuíam n qualidades, a experiência do desenvolvedor, o prazo de um projeto, entre outros fatores  ainda interferem bastante na qualidade do código. A criação dos programas não dependem apenas da linguagem utilizada. 
