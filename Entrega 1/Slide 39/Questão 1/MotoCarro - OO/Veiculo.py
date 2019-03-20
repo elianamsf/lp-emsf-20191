@@ -1,56 +1,59 @@
 from TipoVeiculo import TipoVeiculo
 class Veiculo():
     def __init__(self, veiculo):
-        self.veiculo = veiculo
+        self.__veiculo = veiculo
 
     def getTipoVeiculo(self):
-        return self.veiculo.tipoVeiculo
+        return self.__veiculo.getTipoVeiculo()
 
     def setTipoVeiculo(self, tipoVeiculo):
-        self.veiculo = tipoVeiculo
+        self.__veiculo = tipoVeiculo
 
     def verificaTipo (self):
-        if self.getTipoVeiculo() == TipoVeiculo.MOTO:
-            return 'A quantidade de rodas é 2'
-        if self.getTipoVeiculo() == TipoVeiculo.CARRO:
-            return "A quantidade de rodas é 4"
+        try:
+            if self.getTipoVeiculo() == TipoVeiculo.MOTO:
+                return 'A quantidade de rodas é 2'
+            if self.getTipoVeiculo() == TipoVeiculo.CARRO:
+                return "A quantidade de rodas é 4"
+        except:
+            return 'Ocorreu uma exceção no programa'   
 class Moto():
     def __init__(self):
-        self.marca = self
-        self.modelo = self
-        self.ano = self
-        self.tipoVeiculo = TipoVeiculo.MOTO
+        self.__marca = self
+        self.__modelo = self
+        self.__ano = self
+        self.__tipoVeiculo = TipoVeiculo.MOTO
     def getMarca(self):
-        return self.marca
+        return self.__marca
     def setMarca(self, marca):
-        self.marca = marca
+        self.__marca = marca
     def getModelo(self):
-        return  self.modelo
+        return  self.__modelo
     def setModelo(self, modelo):
-        self.modelo = modelo
+        self.__modelo = modelo
     def getAno(self):
-        return  self.ano
+        return  self.__ano
     def setAno(self, Ano):
-        self.ano = ano
+        self.__ano = ano
     def getTipoVeiculo(self):
-        return self.tipoVeiculo
+        return self.__tipoVeiculo
 class Carro():
     def __init__(self, marca, modelo, ano):
-        self.marca = marca
-        self.modelo = modelo
-        self.ano =  ano
-        self.tipoVeiculo = TipoVeiculo.CARRO
+        self.__marca = marca
+        self.__modelo = modelo
+        self.__ano =  ano
+        self.__tipoVeiculo = TipoVeiculo.CARRO
     def getMarca(self):
-        return  self.marca
+        return  self.__marca
     def setMarca(self, marca):
-        self.marca = marca
+        self.__marca = marca
     def getModelo(self):
-        return  self.modelo
+        return  self.__modelo
     def setModelo(self, modelo):
-        self.modelo = modelo
+        self.__modelo = modelo
     def getAno(self):
-        return  self.ano
+        return  self.__ano
     def setAno(self, Ano):
-        self.ano = ano
+        self.__ano = ano
     def getTipoVeiculo(self):
-        return self.tipoVeiculo
+        return self.__tipoVeiculo
