@@ -18,10 +18,10 @@ class Veiculo():
         except:
             return 'Ocorreu uma exceção no programa'   
 class Moto():
-    def __init__(self):
-        self.__marca = self
-        self.__modelo = self
-        self.__ano = self
+    def __init__(self, marca='', modelo='', ano=0):
+        self.__marca = marca
+        self.__modelo = modelo
+        self.__ano = ano
         self.__tipoVeiculo = TipoVeiculo.MOTO
     def getMarca(self):
         return self.__marca
@@ -38,7 +38,7 @@ class Moto():
     def getTipoVeiculo(self):
         return self.__tipoVeiculo
 class Carro():
-    def __init__(self, marca, modelo, ano):
+    def __init__(self, marca ='', modelo='', ano=0):
         self.__marca = marca
         self.__modelo = modelo
         self.__ano =  ano
