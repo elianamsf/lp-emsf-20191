@@ -18,3 +18,22 @@ ama(dora, pedro).
 ama(pedro,filha).
 ama(filha,carlos).
 ama(carlos, dora).
+ama(dora, lia).
+ama(dora,lea).
+ama(dora,paulo).
+ama(dora, juca).
+ama(dora,dito).
+ama(dora,filha).
+
+
+% Regras
+rivais(X,Y) :-
+    ama(X,Z),
+    ama(Y,Z),
+    X\=Y.
+
+casal(X,Y) :-
+    ama(X,Y),
+    ama(Y,X),
+    X @< Y.
+%ama(carlos, X). Resposta Dora
